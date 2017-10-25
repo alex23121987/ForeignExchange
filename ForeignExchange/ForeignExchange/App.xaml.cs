@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
+using ForeignExchange.Views;
 
 namespace ForeignExchange
 {
@@ -13,7 +9,7 @@ namespace ForeignExchange
         {
             InitializeComponent();
 
-            MainPage = new ForeignExchange.MainPage();
+            MainPage = new MainView();
         }
 
         protected override void OnStart()
